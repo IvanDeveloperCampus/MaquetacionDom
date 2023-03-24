@@ -1,8 +1,8 @@
 export default{
     Image:"./img/pexels-evg-kowalievska-1148952.jpg",
-    title: "Lastes Styles",
-    description:"Don’t miss out on the next Vogue Club event. Meet the Founder: Olamide Olowe of Topicals",
-    href:"Continue reading",
+    title: "Ultimos estilos",
+    description:"Tendencias de moda, colecciones, moda en la calle, streetstyle, entrevistas con diseñadores, modelos y noticias. Consejos y tendencias de temporada para ir a la última",
+    href:"Continue  leyendo",
     showImg(){
         document.querySelector(".imgStyles").style.
         backgroundImage=`url(${this.Image})`;

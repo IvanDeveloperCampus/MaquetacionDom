@@ -1,11 +1,11 @@
 export default{
     article:[
         {
-          title:"Lila Moss on Her Personal Style, Perfecting Her Runway Walk, and the One Thing She Can’t Steal From Her Mother’s Closet",
-          date:"March 22, 2023",
-          parrafo:`As the daughter of supermodel Kate Moss, it’s no surprise that Lila Moss has a treasure trove of good tips and tricks learned from the legend herself. “Less is more,”
-           and “always be kind to everyone,” are two of the essential lessons Lila shares with us in this episode of “Diary of a Model.”`,
-           subtitulo2:"Production",
+          title:"¿Quién viste a quién en el cine español?: la guía de los estilistas de las actrices nacionales al detalle",
+          date:"15 de marzo de 2023",
+          parrafo:`Con la temporada de festivales todavía a pleno rendimiento y el Festival de Málaga regalándonos looks para el recuerdo a diario, resulta interesante dejar de lado por un momento el trabajo interpretativo de los implicados para centrarnos en otro aspecto no menos destacado de la infraestructura cinematográfica. Nos referimos, claro, a las alfombras rojas, ese elemento ya casi místico encargado de transportarnos a la magia del cine,
+           deslumbrándonos con el glamour y la belleza que se le presupone a la industria del celuloide y que, sin embargo, tiene más de ciencia que de magia. `,
+           subtitulo2:"Produccion",
            lista:["director: Talia Collis",
            "Director of Photography: Romain Vallade",
            "Editor: J.Y. Chun",
@@ -14,16 +14,17 @@ export default{
            "Production Coordinator: Tara Lengyel",
            "Supervising Producer, Paris: Nikki Petersen"
           ],
-          subtitulo3:"Fashion",
-          parrafo2:"In the latest installment, we follow along as the 20-year-old model gets ready to close the Chloé fall 2023 ready-to-wear show. Glowing skin is a fashion-show must, but luckily for Lila, her youthful glow comes with age. Her quick beauty routine includes rinsing her face with water and putting on some eye patches for depuffing action. She orders croissants for breakfast (pain au chocolat are her favorite), before getting dressed in a moss-colored knit sweater, gray-washed denim, and platform Doc Martens. “I like to wear shoes with a bit of a platform because I probably will be the shortest girl at the show today,” says Moss, who is famously 5’6”."
+          subtitulo3:"José Juan Rodríguez y Paco Casado",
+          parrafo2:`El tándem de estilistas ha conseguido hacerse mucho más que un hueco en la industria. Juntos son una de las parejas más influyentes del panorama, donde visten a figuras como Anna Castillo, Ingrid García-Jonsson, Macarena García, Nerea Barros, Nathalie Poza o Elena Rivera. Para la gala de los Goya 2023, en su lista de
+           clientas se encontraron la ya mencionada Anna Castillo, pero también otras como Bárbara Lennie, Aitana Sánchez Gijón, Maribel Verdú o Carolina Yuste.`
             
             
            
         },{
-          title:"These 13 Style Icons Make the Case for Never Changing Your Look",
-          date:"March 22, 2023",
-          parrafo:`These celebrities make the case for finding your perfect wardrobe staples and then sticking with them. On the red carpet, for instance, Beyoncé has consistently stuck to her glitzy bodycon gowns; Jennifer Aniston has kept things more minimal, always managing to find the perfect ’90s-style LBD (Her stylish Friends character, Rachel Green, would approve). 
-          Other stars have kept bold go-tos in the rotation, such as Grace Jones or Diane Keaton, who rarely step out without a statement hat.`,
+          title:"Los zapatos que estarán por todas partes esta primavera son los más cómodos",
+          date:"14  de marzo del 2023",
+          parrafo:`Esta primavera existen unos zapatos que han terminado por desterrar (temporalmente) a las zapatillas. Sin embargo, este gesto estilístico no supone renunciar ni un ápice a la comodidad. Nos deparan unos meses de llevar un calzado tan sensato como favorecedor y versátil, gracias a las tendencias de la primavera que la pasarela propone para este calzado. Las bailarinas 
+          son una de las apuestas más fuertes de las colecciones, desde las transparentes de Loewe a las afiladas de Marni, pasando por el balletcore de MM6.`,
            subtitulo2:"Succession Is Going Out on Top",
            lista:["director: Talia Collis",
            "Director of Photography: Romain Vallade",

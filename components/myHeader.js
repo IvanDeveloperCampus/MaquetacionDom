@@ -5,28 +5,28 @@ export default{
        href:"#"
     },
     sections: [{
-        name:"FASHION",
+        name:"MODA",
         description: " "
     },{
-        name:"BEAUTY",
+        name:"BELLEZA",
         description:""
     },{
-        name:"CULTURE",
+        name:"CULTURA",
         description:""
     },{
         name:"LIVING",
         description:""
     },{
-        name:"RUNWAY",
+        name:"PASARELAS",
         description:""
     },{
-        name:"SHOPPING",
+        name:"COMPRAS",
         description:""
     },{
-        name:"VIDEO",
+        name:"CELEBRITIES",
         description:""
     },{
-        name:"VOGUE CLUB",
+        name:"VOGUE 365",
         description:""
     },{
         name:"PHOTOVOGUE",

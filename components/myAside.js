@@ -2,12 +2,15 @@ export default{
     
     nav:[
         {
-            title:"about",
-            paragranph:`Vogue is the world's leading high-end fashion magazine and is currently published in 20 countries. 
-            It is considered the 'bible of fashion' and is the great reference within the publications of the sector.`
+            title:"Mision",
+            paragranph:`VOGUE tiene como misión entregar en tiempo y forma promesas de belleza que cumplan con los más altos estándares de calidad, teniendo la mejor relación costo beneficio del mercado, todo esto en un ambiente seguro,
+             ético para que nuestra gente pueda desarrollarse y crecer siempre buscando ser una empresa amigable con el medio ambiente.`
+        },{
+            title:"Vision",
+            paragranph:`VOGUE tiene como visión ser el aliado estratégico del negocio en el crecimiento del mercado de belleza en América, siempre buscando mejorar nuestra confiabilidad, valor agregado y flexibilidad para llegar a mas gente.`
         },
         {
-            title:"archives",
+            title:"Ultimos Post",
             link:[
                 {
                     namee:"March 21, 2023",
@@ -39,7 +42,7 @@ export default{
                 }
             ]
         },{
-            title:"elsewhere",
+            title:"Redes",
             link:[
                 {
                     namee:"Facebook",

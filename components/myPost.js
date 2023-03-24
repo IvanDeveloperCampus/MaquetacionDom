@@ -56,7 +56,7 @@ export default{
                                 
                             </div>
                             <div class="col-4 d-none d-lg-block">
-                                <img src="${element.img}" class="resposiveImg" width="200px">
+                                <img src="${element.img}" class="resposiveImg" >
 
                             </div>
                         </div>
