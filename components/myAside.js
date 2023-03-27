@@ -91,6 +91,12 @@ export default{
                        ).join("")}       
                     </ol>
                 </div>`
+    },
+
+    show(){
+        const ws=new Worker("storage/wsMyAside.js", {type: "module"})
+
+        ws.postMessage({module: ""})
     }
 
     

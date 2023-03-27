@@ -6,14 +6,12 @@ import myArticles from "./components/myArticles.js";
 
 
 
-//myHeader.listTitle();
-//myHeader.listarSections();
 myHeader.fragShow();
 myBanner.showImg();
-myBanner.showSectionBanner();
+myBanner.showBanner();
 
 myPost.showPost();
 
 myAside.showAside();
 
-myArticles.showArticle();
+myArticles.show();
