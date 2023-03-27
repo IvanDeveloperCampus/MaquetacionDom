@@ -5,9 +5,10 @@ import myAside from "./components/myAside.js";
 import myArticles from "./components/myArticles.js";
 
 
-myHeader.listTitle();
-myHeader.listarSections();
 
+//myHeader.listTitle();
+//myHeader.listarSections();
+myHeader.fragShow();
 myBanner.showImg();
 myBanner.showSectionBanner();
 

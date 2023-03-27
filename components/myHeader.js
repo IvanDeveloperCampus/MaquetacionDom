@@ -34,23 +34,30 @@ export default{
     }
 
     ], 
-    listTitle(){
-        document.getElementById("title").insertAdjacentHTML("beforeend", `
-        <a class="blog-header-logo text-dark" href="#" >${this.title.nombre}</a>`)
-    },
-    
-    listarSections(){
-        
-        
-        let html="";
-        
-            this.sections.forEach(element => {
-                html+=`<a class="p-2 link-secondary" 
-                href="#">${element.name}</a>`
-            });
-            document.getElementById("sections").insertAdjacentHTML("beforeend", html)
-           
-        }
+    fragShow(){
+            //CREAMOS EL WORKER
+            const ws=new Worker("storage/wsMyHeader.js",{type:"module"});
+
+            //ENVIAMOS EL MENSAJE AL WORKER
+            ws.postMessage({module:"listTitle", data: this.title});
+
+            ws.postMessage({module:"listSections", data: this.sections});
+
+            
+            //ESTO ES LO QUE LLEGA DEL WORKER
+            ws.addEventListener("message", (e)=>{
+                console.log(e.data);
+                //ESTAMOS PARSEANDO LO QUE TRAE EL EVENTO
+                let doc=new DOMParser().parseFromString(e.data, "text/html");
+
+                //INSERTAMOS EN NUESTRO INDEX, EN EL SELECTOR #SECTIONS
+                document.querySelector("#sections").append(...doc.body.children);
+
+                //TERMINAMOS EL TRABAJO DEL WORKER
+                ws.terminate();
+            })
+            
+    }
     
     
 }
