@@ -7,9 +7,7 @@ export default{
         description:"Tendencias de moda, colecciones, moda en la calle, streetstyle, entrevistas con diseñadores, modelos y noticias. Consejos y tendencias de temporada para ir a la última",
         href:"Continue  leyendo"
     },
-    showImg(){
-        document.querySelector(".imgStyles").style.backgroundImage=`url(${this.banner.Image})`;
-    },
+   
     showBanner(){
         const ws=new Worker("storage/wsMyBanner.js",{type:"module"});
         ws.postMessage({module:"showBanner", data:this.banner});
@@ -18,6 +16,10 @@ export default{
             document.querySelector(".info").append(...doc.body.children)
         })
     },
+    
+    showImg(){
+        document.querySelector(".imgStyles").style.backgroundImage=`url(${this.banner.Image})`;
+    }
     
     
 

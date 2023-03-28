@@ -7,7 +7,9 @@ import myArticles from "./components/myArticles.js";
 
 
 myHeader.fragShow();
+
 myBanner.showImg();
+
 myBanner.showBanner();
 
 myPost.showPost();
