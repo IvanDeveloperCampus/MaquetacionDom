@@ -1,14 +1,14 @@
+import config from "../storage/config.js";
+
 export default{
     
 
-    banner:{
-        Image:"./img/pexels-evg-kowalievska-1148952.jpg",
-        title: "Ultimos estilos",
-        description:"Tendencias de moda, colecciones, moda en la calle, streetstyle, entrevistas con diseñadores, modelos y noticias. Consejos y tendencias de temporada para ir a la última",
-        href:"Continue  leyendo"
-    },
-   
     showBanner(){
+
+        config.dataMyBanner();
+        Object.assign(this, JSON.parse(localStorage.getItem("myBanner")));
+        
+
         const ws=new Worker("storage/wsMyBanner.js",{type:"module"});
         ws.postMessage({module:"showBanner", data:this.banner});
         ws.addEventListener("message", (e)=>{
@@ -18,6 +18,9 @@ export default{
     },
     
     showImg(){
+
+        config.dataMyBanner();
+        Object.assign(this, JSON.parse(localStorage.getItem("myBanner")));
         document.querySelector(".imgStyles").style.backgroundImage=`url(${this.banner.Image})`;
     }
     

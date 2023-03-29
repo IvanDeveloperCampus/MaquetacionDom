@@ -1,47 +1,14 @@
+import config from "../storage/config.js";
+
 export default {
-  title: {
-    nombre: "VOGUE",
-    href: "#",
-  },
-  sections: [
-    {
-      name: "MODA",
-      description: " ",
-    },
-    {
-      name: "BELLEZA",
-      description: "",
-    },
-    {
-      name: "CULTURA",
-      description: "",
-    },
-    {
-      name: "LIVING",
-      description: "",
-    },
-    {
-      name: "PASARELAS",
-      description: "",
-    },
-    {
-      name: "COMPRAS",
-      description: "",
-    },
-    {
-      name: "CELEBRITIES",
-      description: "",
-    },
-    {
-      name: "VOGUE 365",
-      description: "",
-    },
-    {
-      name: "PHOTOVOGUE",
-      description: "",
-    },
-  ],
+  
   fragShow() {
+
+    //LLAMAMOS LA FUNCION DATA DEL CONFIG
+    config.dataMyHeader();
+    //ASIGNAMOS EL OBJETO MYHEADER AL OBJETO THIS
+    Object.assign(this, JSON.parse(localStorage.getItem("myHeader")));
+
     const ws = new Worker("storage/wsMyHeader.js", { type: "module" }); //CREAMOS EL WORKER
 
     let count = 0;
